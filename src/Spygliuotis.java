@@ -1,2 +1,2 @@
-public abstract class  Spygliuotis implements Medis {
+abstract class  Spygliuotis extends Medis {
 }

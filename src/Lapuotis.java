@@ -1,2 +1,2 @@
-public abstract class Lapuotis implements Medis {
+abstract class Lapuotis extends Medis {
 }
