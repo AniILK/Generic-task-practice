@@ -8,5 +8,8 @@ public class Main {
         Medis egle = new Egle();
         egle.turi();
 
+        Medis kadagys = new Kadagys();
+        kadagys.turi();
+
     }
 }
