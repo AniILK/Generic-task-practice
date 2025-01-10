@@ -1,4 +1,4 @@
-abstract class Lapuotis extends Medis {
+ class Lapuotis extends Medis {
 
     @Override
     String getType() {
