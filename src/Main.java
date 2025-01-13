@@ -3,22 +3,45 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<Integer> integers = new ArrayList<>();
-        integers.add(1);
-        integers.add(2);
-        integers.add(3);
+        Medis azuolas = new Azuolas();
+        Medis egle = new Egle();
+        Medis kadagys = new Kadagys();
+        Medis berzas = new Berzas();
+        Medis pusis = new Pusis();
+        Berzas tree1 = new Berzas();
+        Berzas tree2 = new Berzas();
+        Berzas tree3 = new Berzas();
+        Spygliuotis spyg1 = new Spygliuotis();
+        Spygliuotis spyg2 = new Spygliuotis();
+        Spygliuotis spyg3 = new Spygliuotis();
 
-        ArrayList<String> strings = new ArrayList<>();
-        strings.add("Hello");
-        strings.add("world");
 
-        printArrayListElements(integers);
-        printArrayListElements(strings);
-    }
+        ArrayList<Medis> medis = new ArrayList<>();
+        medis.add(azuolas);
+        medis.add(egle);
+        medis.add(kadagys);
+        medis.add(berzas);
+        medis.add(pusis);
 
-    public static  <T> void printArrayListElements(ArrayList<T> arrayList) {
-        for (T element: arrayList) {
-            System.out.println(element);
-        }
+        ArrayList<Berzas> berzai = new ArrayList<>();
+        berzai.add(tree1);
+        berzai.add(tree2);
+        berzai.add(tree3);
+
+        ArrayList<Spygliuotis> spygliuotis = new ArrayList<>();
+        spygliuotis.add(spyg1);
+        spygliuotis.add(spyg1);
+        spygliuotis.add(spyg1);
+
+        Miskas.spygliuociuMiskas(spygliuotis);
+        Miskas.ivairusMiskas(medis);
+        Miskas.berzuMiskas(berzai);
+
+
+
+
+
+
+
     }
 }
