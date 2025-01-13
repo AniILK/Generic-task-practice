@@ -16,16 +16,13 @@ public class Mapas<K, V> {
     }
 
     public V gauti(K key) {
-        try {
+
             for (Pora<K, V> pora : poruSarasas) {
-                if (pora.getKey().equals(key)) {
+                if (pora.getKey() !=null && pora.getKey().equals(key)) {
                     return pora.getValue();
                 }
             }
-        } catch (NullPointerException npe) {
-            System.out.println("Encountered null value");
-        }
-        return null;
+            return null;
     }
 
     @Override
