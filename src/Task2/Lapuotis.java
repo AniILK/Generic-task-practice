@@ -1,4 +1,7 @@
-package Task2;
+ class Lapuotis extends Medis {
 
-abstract class Lapuotis extends Medis {
+    @Override
+    String getType() {
+        return "turi lapus";
+    }
 }

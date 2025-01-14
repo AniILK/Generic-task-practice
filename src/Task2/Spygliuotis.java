@@ -1,4 +1,6 @@
-package Task2;
-
-abstract class  Spygliuotis extends Medis {
+class  Spygliuotis extends Medis {
+    @Override
+    String getType() {
+        return "turi spyglius";
+    }
 }
