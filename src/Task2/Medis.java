@@ -1,3 +1,5 @@
+package Task2;
+
 abstract class Medis {
 
     public void turi() {
